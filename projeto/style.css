@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Ubuntu", arial, sans-serif;
+    
+}
+
+header {
+    background-color: #823329;
+    color: white;
+
+    padding-top: 30px;
+    height: 130px;
+    text-align: center;
+
+}
+
+header h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 13px;
+}
+
+nav {
+    background-color: #E2711D;
+    text-align: center;
+    font-weight: 500;
+    
+
+    height: 40px;
+    width: 270px;
+    padding-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 50px;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav a {
+    font-family: "Ubuntu", Verdana, Sans-serif;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #823329;
+    transition: 0.5s;
+}
+
+main {
+    padding-left: 25px;
+    line-height: 25px;
+}
+
+.bemvindo > p {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+main section article {
+    padding-bottom: 50px;
+    text-indent: 15px;
+}
+
