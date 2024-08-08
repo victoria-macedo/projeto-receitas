@@ -14,6 +14,7 @@
 
 body {
     font-family: "Ubuntu", arial, sans-serif;
+    background-color: #46110b;
     
 }
 
@@ -30,25 +31,40 @@ header {
 header h1 {
     font-family: "Kanit", sans-serif;
     font-size: 2.5em;
+
 }
 
 header p {
     font-size: 13px;
+
 }
+
+
+
+
+
+
+main {
+    background-color: #f8e2b6;
+    line-height: 25px;
+
+    box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.267);
+}
+
 
 nav {
     background-color: #E2711D;
     text-align: center;
     font-weight: 500;
-    
 
     height: 40px;
     width: 270px;
     padding-top: 10px;
     margin-left: 6px;
-    margin-bottom: 50px;
-
+    margin-bottom: 40px;
     border-radius: 0px 0px 10px 10px;
+    
+    
 }
 
 nav a {
@@ -64,21 +80,42 @@ nav a:hover {
     transition: 0.5s;
 }
 
-main {
-    padding-left: 25px;
-    line-height: 25px;
+main img {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 150vh;
 }
 
-.bemvindo > p {
-    margin-bottom: 30px;
+main > section {
+    padding-left: 25px;
 }
 
 main h2 {
     padding-top: 30px;
     padding-bottom: 20px;
+
 }
 main section article {
     padding-bottom: 50px;
     text-indent: 15px;
+
 }
 
+footer {
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer p >a:hover {
+    text-decoration: underline;
+}
