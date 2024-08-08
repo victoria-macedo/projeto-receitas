@@ -103,6 +103,48 @@ main section article {
 
 }
 
+.voce-sabia {
+    background-image: linear-gradient(to right, #823329,#c26356,rgba(248, 248, 248, 0.144));
+    color: white;
+
+    width: 500px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    padding: 5px;
+    
+}
+
+main section ul li {
+    list-style-position: inside;
+    list-style-type: "\002713";
+
+}
+
+#imagem-laranja {
+    height: 40vh;
+    width: auto;
+}
+
+.fruta-laranja {
+    color: #E2711D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     height: 30px;
     text-align: center;
