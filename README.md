@@ -11,6 +11,6 @@
 
 <br>
 
-<a href="https://victoria-macedo.github.io/projeto-receitas/projeto/index.html">Visite o Site Receitas Culinárias</a>
+<a href="https://victoria-macedo.github.io/projeto-receitas/projeto/index.html" target="_blank">Visite o Site Receitas Culinárias</a>
 
 
